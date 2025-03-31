@@ -1,0 +1,20 @@
+@media (max-width: 800px) {
+    body {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    /*background-image: url('logogrey.png');*/
+    background-size: contain; /* Ensures the entire image is visible without distortion */
+    background-position: center center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    box-sizing: border-box;
+  }
