@@ -35,6 +35,7 @@
   /*font texter*/
   p { 
     font-family: 'Barlow Condensed', sans-serif;
+    color: yellow;
   }
   
   .nedrepanel {
@@ -149,6 +150,10 @@ header {
   font-size: 18px; 
   line-height: 25px;
   border-radius: 4px;
+}
+
+.header.home-scio {
+
 }
 
 .header a.logo {
