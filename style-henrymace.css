@@ -97,7 +97,7 @@ article.home {
 }
 
 .btc-dash {
-  margin-left: 20px;
+  margin: 0%;
 }
 
 /* Style the footer */
@@ -158,10 +158,6 @@ header {
 
 .home-scio {
   color: yellow;
-  -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    margin-left: 20px;
 }
 
 .header a.logo {
