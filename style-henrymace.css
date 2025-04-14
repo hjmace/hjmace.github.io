@@ -156,8 +156,8 @@ header {
   border-radius: 4px;
 }
 
-.header.home-scio {
-
+.home-scio {
+  color: yellow;
 }
 
 .header a.logo {
