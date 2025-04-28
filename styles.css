@@ -61,7 +61,7 @@ main::-webkit-scrollbar {
 
 .panel {
     min-height: calc(100vh - 80px);
-    /*scroll-snap-align: start;*/
+    scroll-snap-align: start;
     display: flex;
     flex-direction: column;
     justify-content: flex-start; /* Börja från toppen */
