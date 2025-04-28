@@ -58,6 +58,24 @@ main::-webkit-scrollbar {
     display: none; /* Chrome, Safari, Opera */
 }
 
+.main-nav {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-family: 'Rationale', sans-serif;
+}
+
+.main-nav a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.main-nav a:hover {
+    color: #ffffff; /* Vit vid hover */
+}
 
 .panel {
     min-height: calc(100vh - 80px);
