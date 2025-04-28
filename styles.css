@@ -61,7 +61,7 @@ main::-webkit-scrollbar {
 
 .panel {
     min-height: calc(100vh - 80px);
-    scroll-snap-align: start;
+    /*scroll-snap-align: start;*/
     display: flex;
     flex-direction: column;
     justify-content: flex-start; /* Börja från toppen */
@@ -165,5 +165,11 @@ footer a.active {
 
     .project-gallery iframe {
         width: 80%; /* Större bredd på små skärmar */
+    }
+}
+
+@media (max-width: 480px) {
+    section h2 {
+        white-space: normal; /* Tillåt radbrytning på supersmå skärmar */
     }
 }
