@@ -186,8 +186,8 @@ footer a.active {
     }
 }
 
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
     main {
         white-space: normal; /* Tillåt radbrytning på supersmå skärmar */
-    }
+/*}
 }
