@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio page for Henry Mace">
 
-  <!-- Usercentrics ookie banner -->
+    <!-- Usercentrics Cookie banner -->
   <script src="https://web.cmp.usercentrics.eu/modules/autoblocker.js"></script>
   <script id="usercentrics-cmp" src="https://web.cmp.usercentrics.eu/ui/loader.js" data-settings-id="lUQ9YwzxP6BOBD" async></script>
-  <!-- End cookie banner-->
+<!-- End cookie banner-->
 
 <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-5LGZD9FW');</script>
-    <!-- End Google Tag Manager -->
+<!-- End Google Tag Manager -->
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KZR0XLWWH8"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZR0XLWWH8"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -27,69 +28,58 @@
 
     gtag('config', 'G-KZR0XLWWH8');
     </script>
+<!--End Google Tag -->
 
-  <link rel="stylesheet" href="style-henrymace.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap" rel="stylesheet">  
-  <link href="https://fonts.googleapis.com/css2?family=Rationale&family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap" rel="stylesheet">
-
-<title>Main</title>
-<link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/hjmace/hjmace.github.io/refs/heads/main/images/favicon.ico">
-
+    <title>Henry Mace</title>
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/hjmace/hjmace.github.io/refs/heads/main/images/favicon.ico">
+    <link rel="stylesheet" href="styles.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Rationale&family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Google Tag Manager (noscript) -->
+     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LGZD9FW"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <header>
-      <div class="header">
-        <a href="#default" class="logo">Henry Mace</a>
-        <div class="header-right">
-          <a href="index.html">Home</a>
-          <a href="contact.html">Contact</a>
-        </div>
-      </div>
-      <hr>
+        <h1>Henry Mace</h1>
     </header>
-    
-    <section class="uppe">
-      <nav>
-        <ul>
-          <li class="contact"><a href="index.html">Home</a></li>
-          <li class="ego"><a href="ego.html">About me</a></li>
-          <li class="scio"><a href="scio.html">Projects</a></li>
-          <li class="volo"><a href="volo.html">Proposals</a></li>
-        </ul>
-      </nav>
-      
-      <article class="home">
-        <h1>Hello!</h1>
-        <p>Welcome to my site.</p>
-        <p>This is a work in progress, but it will be updated continuously.</p>
-        <p>You are more than welcome to check out the different sections, and at the bottom of the page you can find links to my email and LinkedIn!</p>
-        <p>Connect with me, and we'll have a blast!</p>
-        
-      </article>
-    </section>
-    
+
+    <main>
+        <section id="welcome" class="panel">
+            <h2>Welcome</h2>
+            <p>Welcome to my portfolio page. This is a work in progress, but it will be updated continuously.
+            <br>Have a look around, and if you see something you like, you can find links to my email and LinkedIn at the bottom of the page!
+            <br>Connect with me, and we'll have a blast!</p>
+        </section>
+
+        <section id="about" class="panel">
+            <h2>About Me</h2>
+            <p>Passionate about technology, creativity, and delivering meaningful projects.</p>
+        </section>
+
+        <section id="projects" class="panel">
+            <h2>Projects</h2>
+            <div class="project-gallery">
+                <h3>My Bitcoin Price Dashboard</h3>
+                <iframe class="btc-dash" src="https://lookerstudio.google.com/embed/reporting/19adc5ca-1c8f-4440-82dc-9af35528c17a/page/nPuAF" title="Bitcoin price dashboard"></iframe>
+                <p>This has been my project for some time now. Data is collected via an automated API call run in Google Apps Script that's executed every five minutes entering the data in Google Sheets. The data is then imported to BigQuery where it's been split in different views to make the visualizations possible.</p>
+            </div>
+        </section>
+
+        <section id="proposals" class="panel">
+            <h2>Proposals</h2>
+            <p>What can I do for you?</p>
+        </section>
+    </main>
+
     <footer>
-        <div class="nedrepanel">
-          <p><a href = "mailto:henryjosephmace@gmail.com">
-          E-mail
-          </a>
-            <span style="width:75px;display:inline-block">
-            </span>
-          <a href="https://www.linkedin.com/in/henry-mace/" target="_blank">
-          LinkedIn
-          </a></p>
-        </div>
-      
-    
-      <div><hr class="nedre"></div>
+        <p>Get in touch: <a href="mailto:henryjosephmace@gmail.com">henryjosephmace@gmail.com</a> | <a href="https://linkedin.com/in/henry-mace" target="_blank" rel="noopener">LinkedIn</a></p>
     </footer>
-    </body>
+
+    <script src="script.js"></script>
+</body>
 </html>
