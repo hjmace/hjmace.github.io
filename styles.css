@@ -63,7 +63,6 @@ main::-webkit-scrollbar {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    font-family: 'Rationale', sans-serif;
 }
 
 .main-nav a {
@@ -71,6 +70,7 @@ main::-webkit-scrollbar {
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
+    font-family: 'Rationale', sans-serif;
 }
 
 .main-nav a:hover {
