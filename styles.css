@@ -113,6 +113,10 @@ section p {
     max-width: 800px;
     text-align: center;
 }*/
+
+.btc-dash {
+    display: flex;
+}
 .project-gallery {
     display: flex;
     flex-direction: column;
